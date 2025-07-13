@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 import { DB_NAME } from "../constants.js";
-
+  //idhar database se communication hua h
 const connectDB =async () => {
     try {
        const connectionInstance = await mongoose.connect
